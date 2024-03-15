@@ -2,7 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+body {
+  @apply bg-zinc-200 text-zinc-600;
+}
+
+.text-primary {
+  @apply text-blue-500;
+}
+
+.link-primary {
+  @apply text-zinc-600 duration-200;
+}
+.link-primary:hover {
+  @apply text-blue-500;
+}
+
+.text-responsive {
+  font-size: calc(0.8vw + 8px);
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +49,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
