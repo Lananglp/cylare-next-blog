@@ -4,9 +4,6 @@ import Header from "@/components/Header";
 import Link from "next/link";
 
 export default function Home() {
-
-  const hai = "halo";
-
   return (
     <>
     <Header/>
@@ -31,7 +28,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-12 gap-3">
           <div className="col-span-12 lg:col-span-6 row-span-2 flex items-center">
-            <Link href={`/post/${hai}`} className="group/new relative block rounded-lg overflow-hidden shadow-lg shadow-black/5">
+            <Link href="/blog/cara-menjadi-keren" className="group/new relative block rounded-lg overflow-hidden shadow-lg shadow-black/5">
               <div className="absolute z-20 start-0 top-0 rounded-tl rounded-br-lg bg-gradient-to-b from-sky-500 to-sky-600 text-white text-xs shadow-lg shadow-black/25 px-4 py-0.5">
                 <p>Trending <i className="fa fa-fw fa-sm fa-arrow-trend-up"/></p>
               </div>
