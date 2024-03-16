@@ -44,7 +44,43 @@ export default function Page() {
 
               {/* looping paragraf */}
               <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam saepe pariatur, fugiat dolorem sapiente sunt atque vel mollitia dolorum! Voluptate ea, nobis voluptates dolorem provident asperiores iste accusantium veritatis eligendi aperiam amet vel sit a illo, sint voluptatum et reprehenderit.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum atque quaerat libero quo aliquid natus aliquam est fugit dolorem, cum blanditiis sapiente explicabo accusamus ut sint expedita doloremque sequi laborum deleniti, quidem reiciendis sed, veniam iure provident. Repellat debitis rem asperiores, commodi quibusdam eveniet illum culpa? Hic a ex explicabo vero! Eum laborum molestias dolorem, accusamus ipsum nobis at perferendis.</p>
+              <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum atque quaerat libero quo aliquid natus aliquam est fugit dolorem, cum blanditiis sapiente explicabo accusamus ut sint expedita doloremque sequi laborum deleniti, quidem reiciendis sed, veniam iure provident. Repellat debitis rem asperiores, commodi quibusdam eveniet illum culpa? Hic a ex explicabo vero! Eum laborum molestias dolorem, accusamus ipsum nobis at perferendis.</p>
+              <p className="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus pariatur amet temporibus officiis velit quas eveniet nobis, porro, ea cum maiores. Quis dignissimos consectetur dolores praesentium commodi nemo alias cum odio. Eum fuga veritatis fugit ea nulla veniam odit ab.</p>
+
+              <div>
+                <img className="h-full w-full rounded-lg" src="https://c4.wallpaperflare.com/wallpaper/179/915/685/photography-water-reflection-bali-wallpaper-preview.jpg" alt="Image1" />
+                <p className="mb-8 mt-2 text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eaque perspiciatis esse nesciunt amet quia ipsum consequuntur possimus? Eum eveniet vel hic, corrupti iste ipsam illo ratione deserunt reiciendis quae?</p>
+              </div>
+
+              <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam saepe pariatur, fugiat dolorem sapiente sunt atque vel mollitia dolorum! Voluptate ea, nobis voluptates dolorem provident asperiores iste accusantium veritatis eligendi aperiam amet vel sit a illo, sint voluptatum et reprehenderit.</p>
+              <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum atque quaerat libero quo aliquid natus aliquam est fugit dolorem, cum blanditiis sapiente explicabo accusamus ut sint expedita doloremque sequi laborum deleniti, quidem reiciendis sed, veniam iure provident. Repellat debitis rem asperiores, commodi quibusdam eveniet illum culpa? Hic a ex explicabo vero! Eum laborum molestias dolorem, accusamus ipsum nobis at perferendis.</p>
+              <p className="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus pariatur amet temporibus officiis velit quas eveniet nobis, porro, ea cum maiores. Quis dignissimos consectetur dolores praesentium commodi nemo alias cum odio. Eum fuga veritatis fugit ea nulla veniam odit ab.</p>
+
+              <h2 className="mb-4 font-medium text-4xl">Lorem ipsum dolor sit.</h2>
+              <h3 className="mb-4 font-medium text-3xl">Lorem ipsum dolor sit.</h3>
+              <h4 className="mb-4 font-medium text-2xl">Lorem ipsum dolor sit.</h4>
+              <h5 className="mb-4 font-medium text-xl">Lorem ipsum dolor sit.</h5>
+              <h6 className="mb-4 font-medium text-lg">Lorem ipsum dolor sit.</h6>
+
+              {/* list looping */}
+              <ul className="list-disc ps-8 mb-4">
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione doloremque nobis provident libero sequi laborum!</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, pariatur.</li>
+              </ul>
+
+              <h6 className="mb-4 font-medium text-lg">Lorem ipsum dolor sit.</h6>
+
+              <ul className="list-decimal ps-8 mb-4">
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione doloremque nobis provident libero sequi laborum!</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, pariatur.</li>
+              </ul>
+
+              <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum atque quaerat libero quo aliquid natus aliquam est fugit dolorem, cum blanditiis sapiente explicabo accusamus ut sint expedita doloremque sequi laborum deleniti, quidem reiciendis sed, veniam iure provident. Repellat debitis rem asperiores, commodi quibusdam eveniet illum culpa? Hic a ex explicabo vero! Eum laborum molestias dolorem, accusamus ipsum nobis at perferendis.</p>
+              <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, atque id pariatur quas quasi voluptas quod? Tempora ad non nulla deleniti fugit officia iure architecto minus sed sequi unde esse et, quidem maiores optio totam hic nemo illum nobis beatae! Sit architecto vero facilis odit quidem, fugiat ullam nemo nostrum eius aliquid inventore, ut rerum! Voluptatem exercitationem recusandae numquam ab veritatis vitae magni deleniti nihil fuga odio, enim, asperiores debitis.</p>
 
             </div>
           </div>
