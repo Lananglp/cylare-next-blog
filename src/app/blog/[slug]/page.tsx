@@ -1,9 +1,25 @@
+'use client'
 import Container from "@/components/Container";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Link from "next/link";
 
 export default function Page() {
+
+  const fetchdata = async () => {
+    try {
+      const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+      const data = await res.json();
+      console.log(data);
+      
+      
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  fetchdata();
+
   return (
     <>
     <Header/>
@@ -12,11 +28,11 @@ export default function Page() {
         <div>
           <div className="mb-6">
             <ul className="flex justify-center items-center text-sm">
-              <li className="capitalize"><i className="fa fa-fw fa-xs fa-house me-1"/> <Link href="/">home</Link></li>
-              <li className="capitalize"><i className="mx-2 block align-middle fa fa-fw fa-xs fa-chevron-right"/></li>
-              <li className="capitalize"> <Link href="/blog">blog</Link></li>
-              <li className="capitalize"><i className="mx-2 block align-middle fa fa-fw fa-xs fa-chevron-right"/></li>
-              <li className="capitalize">cara-menjadi-keren</li>
+              <li className="capitalize font-medium text-zinc-500 text-nowrap"><i className="fa fa-fw fa-xs fa-house me-1"/> <Link href="/">home</Link></li>
+              <li className="capitalize font-medium text-zinc-500 text-nowrap"><i className="mx-2 block align-middle fa fa-fw fa-xs fa-chevron-right"/></li>
+              <li className="capitalize font-medium text-zinc-500 text-nowrap"> <Link href="/blog">blog</Link></li>
+              <li className="capitalize font-medium text-zinc-500 text-nowrap"><i className="mx-2 block align-middle fa fa-fw fa-xs fa-chevron-right"/></li>
+              <li className="capitalize font-medium text-zinc-500 line-clamp-1">cara menjadi keren yaitu selalu melakukan kebaikan agar terjadinya kebaikan</li>
             </ul>
           </div>
           <div className="flex justify-center">
@@ -32,10 +48,10 @@ export default function Page() {
               </div>
 
               {/* judul blog */}
-              <h1 className="mb-4 font-semibold text-5xl">Bali merupakan tempat berwisata terbaik yang sudah terkenal diseluruh dunia</h1>
+              <h1 className="mb-4 font-semibold text-2xl md:text-4xl lg:text-5xl">Bali merupakan tempat berwisata terbaik yang sudah terkenal diseluruh dunia</h1>
               {/* pembuat blog + tanggal */}
-              <div className="flex flex-wrap justify-between items-center mb-8">
-                <p>Oleh <span className="text-primary">infoCylare.id</span> - Jumat, 15 Maret 2024</p>
+              <div className="flex flex-wrap justify-between items-center gap-1 mb-8">
+                <p className="text-sm md:text-base">Oleh <span className="text-primary">infoCylare.id</span> - Jumat, 15 Maret 2024</p>
                 <div className="flex items-center gap-4">
                   <p><i className="fa fa-fw fa-sm fa-heart text-red-500"/> 1.285</p>
                   <p><i className="fa fa-fw fa-sm fa-comment"/> 538</p>
